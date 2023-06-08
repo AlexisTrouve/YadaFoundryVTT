@@ -1,0 +1,36 @@
+{
+    "id": "YadaFoundryVTT",
+    "title": "YadaFoundryVTT",
+    "description": "Yada",
+    "version": "0.0.1",
+    "minimumCoreVersion": "11.299",
+    "compatibleCoreVersion": "11.299",
+    "compatibility": {
+        "minimum": "10.0",
+        "verified": "11.299"
+      },
+    "authors": [
+        {
+          "name": "Still"
+        }
+    ],
+    "esmodules": [
+        "yada.js"
+    ],
+    "styles":[
+    ],
+    "packs":[
+    ],
+    "languages":[
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "socket": false,
+    "gridDistance": 5,
+    "gridUnits": "m",
+    "primaryTokenAttribute":"wounds",
+    "initiative": "1d100"
+}

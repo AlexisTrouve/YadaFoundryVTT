@@ -1,0 +1,227 @@
+{
+    "Actor":{
+        "types":["character","npc","basic"],
+        "templates":{
+            "common":{
+                "abilities":{
+                    "Strength":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Might":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Melee":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Brawn":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Constitution":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Resilience":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Endurance":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Metabolism":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Dexterity":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Range":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Motorics":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Finesse":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Perception":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Senses":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Reaction":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Observation":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Charisma":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Charm":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Sociability":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Coercition":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Intelligence":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Knowledge":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Practical":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Analytical":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Willpower":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "InnerSanctum":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Intuition":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    },
+                    "Discipline":{
+                        "value":20,
+                        "damage":0,
+                        "drain":0,
+                        "userPenalty":0
+                    }
+                },
+                "traits": {
+                    "languages": {
+                        "value": [],
+                        "custom": ""
+                      }
+                }
+            }
+        },
+        "character": {
+            "templates": ["common"],
+            "details": {
+              "xp": {
+                "value": 0,
+                "max": 0
+              },
+              "height": "",
+              "weight": "",
+              "gender": "",
+              "deity": "",
+              "age": ""
+            },
+            "traits": {
+              "weaponProf": {
+                "value": [],
+                "custom": ""
+              },
+              "armorProf": {
+                "value": [],
+                "custom": ""
+              }
+            }
+          }
+    },
+    "Item":{
+        "types":[
+            "weapon"
+        ],
+        "templates": {
+            "itemEssentials":{
+                "description": ""
+            }
+        },
+        "weapon":{
+            "templates": ["itemEssentials"],
+            "attackWith": "melee",
+            "weaponType": "primal",
+            "damage": 0,
+            "reload": 0,
+            "attackMalus": 0
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "yada":{
+        "attack": {
+            "none": "",
+            "naturalmelee": "Natural Melee",
+            "weaponMelee": "Weapon Melee",
+            "classicRange": "Bow like",
+            "gunRange": "Gun",
+            "explosive": "Explosive",
+            "magic": "Magic"
+        },
+        "weaponType": {
+            "primitive": "Primitive",
+            "medieval": "Medieval",
+            "tinkered": "Tinkered",
+            "modern": "Modern",
+            "technological": "Technological",
+            "futuristic": "Futuristic"
+        },
+        "weapon": {
+            "attackWith": "Attack with:",
+            "weaponType": "Weapon type",
+            "damage": "Damage",
+            "reload": "Reload",
+            "attackMalus": "Malus"
+        }
+    }
+}
